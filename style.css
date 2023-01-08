@@ -5,7 +5,6 @@ body{
 }
 header {
   display: flex;
-  color:#ffffff;
   text-align: center;
   background-color: #80808080;
   position: fixed;
