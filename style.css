@@ -3,3 +3,14 @@ body{
    background:#5f9ea0;
   fontfamily:Meiryo,'メイリオ','ヒラギノ角ゴ Pro W3';
 }
+header {
+  text-align: center;
+  background-color: lightgrey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+h1 {
+  line-height: 2;
+}
