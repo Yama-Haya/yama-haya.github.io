@@ -1,7 +1,7 @@
 body{
   color:ffffff;
    background:#5f9ea0;
-  fontfamily:Meiryo,'メイリオ','ヒラギノ角ゴ Pro W3';
+   font-family:Meiryo,'メイリオ','ヒラギノ角ゴ Pro W3';
 }
 header {
   display: flex;
