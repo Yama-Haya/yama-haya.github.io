@@ -13,5 +13,8 @@ header {
   right: 0;
 }
 h1 {
-  line-height: 2;
+  line-height:2;
+}
+nav{
+  text-align:right;
 }
