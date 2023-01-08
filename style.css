@@ -4,6 +4,7 @@ body{
   fontfamily:Meiryo,'メイリオ','ヒラギノ角ゴ Pro W3';
 }
 header {
+  color:ffffff;
   text-align: center;
   background-color: #80808080;
   position: fixed;
