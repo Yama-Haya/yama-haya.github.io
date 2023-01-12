@@ -17,6 +17,7 @@ h1 {
 }
 nav{
   text-align:right;
+  margin: 0 0 0 auto;
 }
 .nav-item{
   list-style: none;
