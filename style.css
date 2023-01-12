@@ -26,6 +26,7 @@ a{
 nav{
   float:right;
   margin: 0 0 0 auto;
+  vertical-align: middle;
 }
 .nav-item{
   list-style: none;
