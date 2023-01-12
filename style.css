@@ -37,3 +37,22 @@ nav{
   color:#ffffff;
   text-decoration:none;
 }
+
+/*-- PCのみ  --*/
+.pc{
+  display:block;
+}
+.m{
+  display:none;
+}
+
+
+/*-- スマホのみ  --*/
+@media screen and (max-width: 768px){
+  .pc{
+    display:none;
+  }
+  .m{
+    display:block;
+  }
+}
