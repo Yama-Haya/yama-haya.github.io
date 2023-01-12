@@ -12,6 +12,9 @@ header {
   left: 0;
   right: 0;
 }
+footer{
+  background:#80808080;
+}
 h1 {
   line-height:2;
 }
