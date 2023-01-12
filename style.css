@@ -16,7 +16,7 @@ h1 {
   line-height:2;
 }
 nav{
-  text-align:right;
+  float:right;
   margin: 0 0 0 auto;
 }
 .nav-item{
