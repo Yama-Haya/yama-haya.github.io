@@ -2,9 +2,9 @@ body{
   color:#ffffff;
   background:#5f9ea0;
   font-family:Meiryo,'メイリオ','ヒラギノ角ゴ Pro W3';
+  padding-top:80px;
 }
 main{
-  padding-top:80px;
   margin-right:20px;
   margin-left:20px;
 }
