@@ -5,8 +5,8 @@ body{
   padding-top:90px;
 }
 main{
-  margin-right:20px;
-  margin-left:20px;
+  margin-right:20%;
+  margin-left:20%;
 }
 header {
   display: flex;
