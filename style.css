@@ -53,6 +53,7 @@ nav{
 .section {
 	padding: 0.25em 0.5em;
 	border-left: solid 0.5em #00cdcd;
+	font-size: 40px
 }
 /*-- PCのみ  --*/
 .pc{
