@@ -10,28 +10,24 @@
     <link rel="icon" type="image/svg" sizes="512x512" href="https://yama-haya.github.io/image/favicon_512.ico">
   </head>
   <main>
-    <form action="mailto:yamahaya-form@outlook.jp" enctype="text/plain" method="POST">
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdLIJ4Iifzgz-VZ7Jd4At9akJ7F9ro0P1rpfL3Xq0j4jKdLmg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
       <div class="box">
         <label for="name">お名前</label>
-        <input type="text" id="name" name="name">
+        <input name="entry.2080980933" type="text" id="name" name="name">
       </div>
       <div class="box">
         <label for="email">メールアドレス</label>
-        <input type="mail" id="email" name="email">
+        <input name="entry.1524826643" type="mail" id="email" name="email">
       </div>
       <div class="box">
         <label for="subject">件名</label>
-        <input type="text" id="subject" name="subject">
+        <input name="entry.274918403" type="text" id="subject" name="subject">
       <div class="box">
         <label for="message">内容</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea name="entry.811897922" id="message" name="message"></textarea>
       </div>
       <div class="btn">
-        <button type="submit">送信する</button>
-        <button class="g-recaptcha" 
-        data-sitekey="6LeGsgEjAAAAAOayr6_cH9gT4blkN1_omfmIWo1Z" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
+        <button type="submit" class="g-recaptcha" data-sitekey="6LeGsgEjAAAAAOayr6_cH9gT4blkN1_omfmIWo1Z" data-callback='onSubmit' data-action='submit'>送信</button>
       </div>
     </form>
   </main>
@@ -55,11 +51,15 @@
       <p>このサイトはMITライセンスの下で公開されています。詳細については、<a href="https://yama-haya.github.io/LICENSE.txt">LICENSE.txt</a>を参照してください。</p>
     </footer>
     <script src="https://www.google.com/recaptcha/api.js"></script>
-     <script>
-       function onSubmit(token) {
-         document.getElementById("demo-form").submit();
-       }
-     </script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
+    <script type="text/javascript">
+      let submitted = false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='';}"></iframe>
     <script scr="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script scr="https://yama-haya.github.io/script.js"></script>
   </body>
